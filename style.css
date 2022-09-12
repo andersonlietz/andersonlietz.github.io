@@ -5,15 +5,19 @@
 body{
     background-color:#000
 }
+header{
+    padding:20px;
+}
 h1{
     color:#008000;
     text-align:center;
-    font:3em Arial;
+    font:3em Arial
 }
 #links{
     width:60%;
     margin:auto;
-    height:auto
+    height:auto;
+    text-align: center
 }
 a{
     margin:auto
@@ -26,11 +30,12 @@ a button{
     cursor:pointer;
     text-align:center;
     border:2px #FFFFFF solid;
-    color:#FFFFFF
+    color:#FFFFFF;
+    text-align:center;
+    border-radius:10px
 }
 a button p{
-    text-align:center;
-    display:flex;
+    text-align:center
 }
 #linkedin{
     background-color:#000080
@@ -40,8 +45,32 @@ a button p{
     
 }
 #portfolio{
-    background-color:#006400
+    background-color:#053f05
 }
 #github{
     background-color:#1C1C1C
+}
+footer{
+    width:80%;
+    color:#FFFFFF;
+    font-size:20px;
+    text-align:left;
+    margin:15px auto;
+    text-decoration:#FFFFFF;
+}
+footer a {
+    color:#ffffff;
+}
+
+@media only screen and ( max-width:700px){
+
+#links{
+width:95%
+}
+header{
+    padding:5px;
+}
+h1{
+    font-size:2em 
+}
 }
