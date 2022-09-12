@@ -13,6 +13,35 @@ h1{
 #links{
     width:60%;
     margin:auto;
-    height:auto;
-    border:#FFFFFF solid 1px
+    height:auto
+}
+a{
+    margin:auto
+}
+a button{
+    width:98%;
+    height:80px;
+    margin:13px auto;
+    font-size:25px;
+    cursor:pointer;
+    text-align:center;
+    border:2px #FFFFFF solid;
+    color:#FFFFFF
+}
+a button p{
+    text-align:center;
+    display:flex;
+}
+#linkedin{
+    background-color:#000080
+}
+#instagram{
+    background-color: #C71585
+    
+}
+#portfolio{
+    background-color:#006400
+}
+#github{
+    background-color:#1C1C1C
 }
