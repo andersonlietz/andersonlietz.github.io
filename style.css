@@ -6,5 +6,13 @@ body{
     background-color:#000
 }
 h1{
-    color:#ffffff;
+    color:#008000;
+    text-align:center;
+    font:3em Arial;
+}
+#links{
+    width:60%;
+    margin:auto;
+    height:auto;
+    border:#FFFFFF solid 1px
 }
