@@ -34,8 +34,20 @@ a button{
     text-align:center;
     border-radius:10px
 }
+button img{
+    height:50px;
+    width:50px;
+    float:left;
+}
 a button p{
-    text-align:center
+    text-align:center;
+    margin:10px auto;
+}
+.container{
+    height:55px;
+    width:30%;
+    margin:auto;
+    padding:5px;
 }
 #linkedin{
     background-color:#000080
@@ -61,7 +73,11 @@ footer{
 footer a {
     color:#ffffff;
 }
-
+@media only screen and ( max-width:1000px){
+.container{
+    width:50%;
+}
+}
 @media only screen and ( max-width:700px){
 
 #links{
