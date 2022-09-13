@@ -38,6 +38,7 @@ button img{
     height:50px;
     width:50px;
     float:left;
+    border-radius: 100%;
 }
 a button p{
     text-align:center;
